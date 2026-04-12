@@ -10,6 +10,7 @@
 
 
 }
+
 .con-header{
     
     height: 115px;
@@ -445,6 +446,7 @@ border: 2px solid;
     display: flex;
     gap: 200px;
     justify-content: center;
+    flex-wrap: wrap;
 
 
 }
@@ -614,11 +616,14 @@ border: 2px solid;
     margin-top: 30px;
     font-size: 25px;
 }
+
 .middle{
     display: flex;
     justify-content: center;
     position: relative;
     margin: 80px;
+
+    
 }
 .arrow1{
     position: absolute;
@@ -664,8 +669,11 @@ border: 2px solid;
 @media screen and 
 (max:width:600px){
     .container{
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
         padding: 10px;
+        
     }
     .con-header{
         flex-direction: column;
@@ -711,6 +719,15 @@ border: 2px solid;
         max-width: 100%;
         height: auto;
     }
+    .message {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .five .heading h1{
+        font-size: 20px;
+    }
+
 
 }
 
