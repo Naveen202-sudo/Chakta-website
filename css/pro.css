@@ -14,19 +14,23 @@
 .con-header{
     
     height: 115px;
-    width: 1510px;
+    max-width: 1510px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
+    margin: auto;
 
     
 }
 .con-header img{
-    
-    height: 50px;
-    width: 192px;
+
+
+    height: auto;
+    width: 180px;
+    max-width: 100%;
     padding: 7px;
 }
 
@@ -736,29 +740,19 @@ border: 2px solid;
         text-align: center;
         align-items: center;
     }
+
+    .con-header img{
+        width: 140px;
+    }
     .center{
         flex-direction: column;
         gap: 10px;
         align-items: center;
 
-    }
+    } 
 
 
-    .left-1 .fa,
-    .left-2 .fa {
-        position: static;   
-        margin-bottom: 5px;
-        left: auto;
-    }
-
-     .right-1, .right-2 {
-        text-align: center;
-    }
-
-      .search-bar {
-        width: 100%;
-        max-width: 300px;
-    }
+      
 
     nav{
         width: 100%;
